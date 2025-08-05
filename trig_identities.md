@@ -29,6 +29,11 @@ $$ \sin\left(2a\right)=2\sin\left(a\right)\cos\left(a\right) $$
 $$ \tan\left(x\right)=\frac{\sin\left(x\right)}{\cos\left(x\right)} $$
 
 ### The angle sum identity for tangent
+
+
+$$ \tan(x+y)=\frac{\left(\frac{\textcolor{red}{\sin}(\textcolor{red}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}+\frac{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{orange}{\sin}(\textcolor{orange}{y})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}\right)}{\left(\frac{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}-\frac{\textcolor{red}{\sin}(\textcolor{red}{x})\cdot\textcolor{orange}{\sin}(\textcolor{orange}{y})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})\cdot\textcolor{green}{\cos}(\textcolor{green}{y})}\right)}=\frac{\left(\frac{\textcolor{red}{\sin}(\textcolor{red}{x})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})}+\frac{\textcolor{orange}{\sin}(\textcolor{orange}{y})}{\textcolor{green}{\cos}(\textcolor{green}{y})}\right)}{1-\frac{\textcolor{red}{\sin}(\textcolor{red}{x})}{\textcolor{blue}{\cos}(\textcolor{blue}{x})}\cdot\frac{\textcolor{orange}{\sin}(\textcolor{orange}{y})}{\textcolor{green}{\cos}(\textcolor{green}{y})}}=\frac{\tan(x)+\tan(y)}{1-\tan(x)\tan(y)} $$
+
+
 $$ \tan\left(x+y\right)=\frac{\sin\left(x+y\right)}{\cos\left(x+y\right)}=\frac{\tan\left(x\right)+\tan\left(y\right)}{1-\tan\left(x\right)\tan\left(y\right)} $$
 
 ### The odd property of tangent
