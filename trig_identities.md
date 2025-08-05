@@ -27,3 +27,12 @@ $$ \sin\left(2a\right)=2\sin\left(a\right)\cos\left(a\right) $$
 
 ### The quotient identity or the tangent identity
 $$ \tan\left(x\right)=\frac{\sin\left(x\right)}{\cos\left(x\right)} $$
+
+### The angle sum identity for tangent
+$$ \tan\left(x+y\right)=\frac{\sin\left(x+y\right)}{\cos\left(x+y\right)}=\frac{\tan\left(x\right)+\tan\left(y\right)}{1-\tan\left(x\right)\tan\left(y\right)} $$
+
+### The odd property of tangent
+$$ \tan\left(-\theta\right)=\frac{\sin\left(-\theta\right)}{\cos\left(-\theta\right)}=\frac{\sin\left(-\theta\right)}{\cos\left(\theta\right)}=-\tan\left(\theta\right) $$
+
+### Angle difference identity for tangent or tangent subtraction formula
+$$ \tan\left(x-y\right)=\frac{\tan\left(x\right)-\tan\left(y\right)}{1+\tan\left(x\right)\tan\left(y\right)} $$
