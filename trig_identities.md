@@ -29,10 +29,90 @@ $$ \sin\left(2a\right)=2\sin\left(a\right)\cos\left(a\right) $$
 $$ \tan\left(x\right)=\frac{\sin\left(x\right)}{\cos\left(x\right)} $$
 
 ### The angle sum identity for tangent
+
+$$ 
+\tan(x+y) = 
+\frac{
+\sin(x+y)
+}{
+\cos(x+y)
+}
+=
+\frac{
+\sin(x)\cos(y) + \cos(x)\sin(y)
+}{
+\cos(x)\cos(y) - \sin(x)\sin(y)
+}
+=
+\frac{
+\left(
+\frac{
+\textcolor{red}{\sin(x)} \cdot \textcolor{green}{\cos(y)}
+}{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{green}{\cos(y)}
+}
++
+\frac{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{orange}{\sin(y)}
+}{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{green}{\cos(y)}
+}
+\right)
+}{
+\left(
+\frac{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{green}{\cos(y)}
+}{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{green}{\cos(y)}
+}
+-
+\frac{
+\textcolor{red}{\sin(x)} \cdot \textcolor{orange}{\sin(y)}
+}{
+\textcolor{blue}{\cos(x)} \cdot \textcolor{green}{\cos(y)}
+}
+\right)
+}
+=
+\frac{
+\left(
+\frac{
+\textcolor{red}{\sin(x)}
+}{
+\textcolor{blue}{\cos(x)}
+}
++
+\frac{
+\textcolor{orange}{\sin(y)}
+}{
+\textcolor{green}{\cos(y)}
+}
+\right)
+}{
+1 -
+\frac{
+\textcolor{red}{\sin(x)}
+}{
+\textcolor{blue}{\cos(x)}
+}
+\cdot
+\frac{
+\textcolor{orange}{\sin(y)}
+}{
+\textcolor{green}{\cos(y)}
+}
+}
+=
+\frac{\tan(x) + \tan(y)}{1 - \tan(x)\tan(y)}
+ $$
 $$ \tan\left(x+y\right)=\frac{\sin\left(x+y\right)}{\cos\left(x+y\right)}=\frac{\tan\left(x\right)+\tan\left(y\right)}{1-\tan\left(x\right)\tan\left(y\right)} $$
 
 ### The odd property of tangent
 $$ \tan\left(-\theta\right)=\frac{\sin\left(-\theta\right)}{\cos\left(-\theta\right)}=\frac{\sin\left(-\theta\right)}{\cos\left(\theta\right)}=-\tan\left(\theta\right) $$
 
 ### Angle difference identity for tangent or tangent subtraction formula
-$$ \tan\left(x-y\right)=\frac{\tan\left(x\right)-\tan\left(y\right)}{1+\tan\left(x\right)\tan\left(y\right)} $$
+
+
+$$ \tan\left(x-y\right)=\frac{\sin\left(x-y\right)}{\cos\left(x-y\right)}=\frac{\sin\left(x\right)\cos\left(y\right)-\cos\left(x\right)\sin\left(y\right)}{\cos\left(x\right)\cos\left(y\right)+\sin\left(x\right)\sin\left(y\right)}=\frac{\left(\frac{{\textcolor{red}{\sin}\left(\textcolor{red}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}-\frac{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{orange}{\sin}\left(\textcolor{orange}{y}\right)}}{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}\right)}{\left(\frac{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}+\frac{{\textcolor{red}{\sin}\left(\textcolor{red}{x}\right)}\cdot{\textcolor{orange}{\sin}\left(\textcolor{orange}{y}\right)}}{{\textcolor{blue}{\cos}\left(\textcolor{blue}{x}\right)}\cdot{\textcolor{green}{\cos}\left(\textcolor{green}{y}\right)}}\right)} $$
+
+$$ \tan\left(x-y\right)=\frac{\sin\left(x-y\right)}{\cos\left(x-y\right)}=\frac{\tan\left(x\right)-\tan\left(y\right)}{1+\tan\left(x\right)\tan\left(y\right)} $$
