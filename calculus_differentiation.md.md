@@ -24,7 +24,9 @@ $$ \frac{d}{dx}\left\lbrack\frac{f\left(x\right)}{g\left(x\right)}\right\rbrack=
 
 ### Average rate of change
 This formula also known as the slope of the secant line between points `(a, b)`
+
 $$ \frac{f\left(b\right)-f\left(a\right)}{b-a} $$
+
 
 ```
 $$ \frac{f\left(b\right)-f\left(a\right)}{b-a} $$
