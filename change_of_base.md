@@ -3,6 +3,7 @@
 $$ \Huge \log_{a}b=\frac{\log_{c}b}{\log_{c}a} $$
 ```
 $$ \log_{a}b=\frac{\log_{c}b}{\log_{c}a} $$
+
 ```
 
 ### The deriviative
