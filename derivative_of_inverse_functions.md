@@ -33,6 +33,7 @@ $$ g^{\prime}\left(f\left(x\right)\right)\cdot f^{\prime}\left(x\right)=1 $$
 ### The final derivative
 
 In respect to f'(x)
+
 $$ \Huge f^{\prime}\left(x\right)=\frac{1}{g^{\prime}\left(f\left(x\right)\right)} $$
 
 ```
