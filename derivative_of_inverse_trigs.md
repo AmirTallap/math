@@ -1,7 +1,7 @@
 ### The Pythagorean identity
-$$ 
-\begin{aligned}
-
+$$
+ 
+  \begin{aligned}
   \sin^2y+\cos^2y=1 \\\\
   \cos^2y=1-\sin^2y \\\\
   \cos\left(y\right)=\sqrt{1-\sin^2y} \\\\
