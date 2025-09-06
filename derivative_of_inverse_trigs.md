@@ -1,10 +1,14 @@
 ### The Pythagorean identity
 $$ 
+\begin{aligned}
+
   \sin^2y+\cos^2y=1 \\\\
   \cos^2y=1-\sin^2y \\\\
   \cos\left(y\right)=\sqrt{1-\sin^2y} \\\\
   \sin^2y=1-\cos^2\left(y\right) \\\\
   \sin\left(y\right)=\sqrt{1-\cos^2\left(y\right)} \\\\
+  \end{aligned}
+
 $$
 
 ### Derivative of inverse sine
