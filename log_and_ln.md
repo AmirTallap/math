@@ -32,4 +32,5 @@ $$ \Huge \log_{b}\left(1\right)=0 $$
 ## Change of Base Formula
 While not strictly an *essential simplification rule*, the Change of Base Formula is critical for calculation when you need to convert a logarithm from an arbitrary base `b` to a more convenient base (like `e` or `10`) for calculation on a standard calculator.
 $$ \Huge\log_{b}\left(x\right)=\frac{\log_{a}x}{\log_{a}b} $$
+* *Here we can use `ln` directly because the base of `ln` is `e`*
 $$ \Huge \log_{b}\left(x\right)=\frac{\ln x}{\ln b} $$
